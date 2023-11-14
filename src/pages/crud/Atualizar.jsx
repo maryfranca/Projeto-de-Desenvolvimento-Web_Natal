@@ -11,14 +11,14 @@ function Atualizar(){
     const navigat = useNavigate()
 
     useEffect(() => {
-        axios.get("https://apiservice-3sry.onrender.com/DecoracaoBolas"+id)
+        axios.get("https://apiservice-jxlq.onrender.com/DecoracaoBolas"+id)
         .then(res => setData(res.data))
         .catch(err => console.log(err))
     }, [])
 
     function handSubmit(event){
         event.preventDefault()
-        axios.put("https://apiservice-3sry.onrender.com/DecoracaoBolas"+id, data)
+        axios.put("https://apiservice-jxlq.onrender.com/DecoracaoBolas"+id, data)
         .then(res =>{
             alert("Dados atualizados com sucesso!!")
             navigat("/")

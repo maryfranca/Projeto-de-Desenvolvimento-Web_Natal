@@ -34,7 +34,7 @@ function Carrinho() {
   useEffect(() => {
     axios
      // é inacreditavel que seja só isso
-      .get("https://apiservice-3sry.onrender.com/DecoracaoBolas"+id)
+      .get("https://apiservice-jxlq.onrender.com/DecoracaoBolas"+id)
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, []);

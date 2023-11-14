@@ -9,7 +9,7 @@ function GetApiDG() {
 
   useEffect(() => {
     axios
-      .get("https://apiservice-3sry.onrender.com/DecoracaoGuirlandas")
+      .get("https://apiservice-jxlq.onrender.com/DecoracaoGuirlandas")
       .then((res) => setValor(res.data))
       .catch((err) => console.log(err));
   }, []);

@@ -8,7 +8,7 @@ function GetApiDP(){
     const [valor, setValor] = useState([])
 
     useEffect(() => {
-        axios.get("https://apiservice-3sry.onrender.com/DecoracaoPresepio")
+        axios.get("https://apiservice-jxlq.onrender.com/DecoracaoPresepio")
         .then(res => setValor(res.data))
         .catch(err => console.log(err))
     }, [])

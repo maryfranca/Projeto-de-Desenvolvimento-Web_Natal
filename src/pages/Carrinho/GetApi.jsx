@@ -9,7 +9,7 @@ function GetApi() {
     const [valor, setValor] = useState([]);
 
     useEffect(() => {
-        axios.get("https://apiservice-3sry.onrender.com/DecoracaoBolas")
+        axios.get("https://apiservice-jxlq.onrender.com/DecoracaoBolas")
             .then(res => setValor(res.data))
             .catch(err => console.log(err));
     }, []);

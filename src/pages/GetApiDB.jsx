@@ -8,7 +8,7 @@ function GetApiDB() {
 
   useEffect(() => {
     axios
-      .get("https://apiservice-3sry.onrender.com/DecoracaoBolas")
+      .get("https://apiservice-jxlq.onrender.com/DecoracaoBolass")
       .then((res) => setValor(res.data))
       .catch((err) => console.log(err));
   }, []);

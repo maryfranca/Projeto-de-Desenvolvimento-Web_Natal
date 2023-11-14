@@ -11,7 +11,7 @@ function  ApiUser(){
 const [valor, setValor] = useState([])
 const navigat = useNavigate
 useEffect(() => {
-    axios.get("https://apiservice-3sry.onrender.com/DecoracaoBolas")
+    axios.get("https://apiservice-jxlq.onrender.com/DecoracaoBolas")
     .then(res => setValor(res.data))
     .catch(err => console.log(err))
 })

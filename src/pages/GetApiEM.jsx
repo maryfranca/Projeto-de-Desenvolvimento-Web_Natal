@@ -8,7 +8,7 @@ function GetApiDB(){
     const [valor, setValor] = useState([])
 
     useEffect(() => {
-        axios.get("https://apiservice-3sry.onrender.com/EnfeitesMeias")
+        axios.get("https://apiservice-jxlq.onrender.com/EnfeitesMeias")
         .then(res => setValor(res.data))
         .catch(err => console.log(err))
     }, [])
